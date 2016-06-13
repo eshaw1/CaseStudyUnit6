@@ -21,6 +21,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ###e. Georgia economy excludes Abkhazia and South Ossetia.  
 ###f. Moldova economy excludes Transnistria.
 
+##Getting SessionInfo for run
+sessionInfo()
 
 ##Reading in "GDP" and "Education" .csv file
 gdp<-read.csv("C:\\Users\\Earl\\Documents\\CaseStudyUnit6\\gdp_data.csv", header = TRUE)
